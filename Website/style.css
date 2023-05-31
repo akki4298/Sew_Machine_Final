@@ -1,0 +1,231 @@
+.navbar {
+    min-height: 10px;
+  }
+
+
+
+.nav-link{
+    text-align: left;
+}
+
+
+#navbarSupportedContent{
+    margin-left: 25px;
+} 
+.dropdown{
+    margin-left: 25px;
+
+}
+/* .gallery{
+    margin-right: 750px;
+
+} */
+/* #bar{
+    margin-right:200px ;
+
+} */
+.nav-link{
+    margin-left: 20px;
+}
+
+.fa-search{
+  color: black;
+}
+
+.dropbtn {
+    background-color: #f4f5f5;
+    color: rgb(45, 42, 42);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #aeb4ae;}
+
+  *{box-sizing:border-box}
+
+  .gallery{
+    margin-right: 450px;
+  }
+
+  .dropbtn{
+    opacity: 0.4;
+  }
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+/*#bar{
+  margin-right: 300px;
+}*/
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 10000000s;
+  }
+  
+  @keyframes fade {
+    from {opacity: 1}
+    to {opacity: 1}
+  }
+  .h2{
+    text-align: center;
+    font-size : 1.5rem
+  }
+
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0.5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+    padding: 5px;
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  
+.column {
+    flex: 25%;
+    padding: 0.1px;
+  }
+  /* @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  } */
+
+/* #content img{
+    width: 25%;
+    min-width: 100px;
+}
+#content {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.world{
+    padding-left: 10px;
+
+}
+
+.card {
+    min-height: 300px;
+}
+.card-deck{
+    padding: 5px;
+    display: flex;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.card-title{
+    color: rgb(255, 106, 0);
+}
+
+.slideshow-container{
+  padding-left: 18px;
+}
+
+.world{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  /*padding-left: 100px;*/
+  text-align: center;
+}
